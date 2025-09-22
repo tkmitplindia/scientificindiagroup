@@ -29,14 +29,14 @@ function ScrollToTop() {
             className="fixed right-8 bottom-8 flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-primary"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
-            <ChevronUp className="m-4 h-10 w-10 text-white" />
+            <ChevronUp className="m-4 h-10 w-10 text-white dark:text-gray-900" />
         </div>
     );
 }
 
 export default function HomePage() {
     return (
-        <div className="min-h-screen bg-[#F6F8F9]">
+        <div className="min-h-screen bg-[#F6F8F9] dark:bg-[#121212]">
             <Head>
                 <title>Scientific India Group</title>
             </Head>
